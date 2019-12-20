@@ -1,0 +1,29 @@
+{
+  "name": "analyticool",
+  "version": "0.0.0",
+  "description": "A better way to communicate technical specifications of web analytics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlee-dev/analyticool.git"
+  },
+  "keywords": [
+    "analytics",
+    "omniture",
+    "sitecat",
+    "sitecatalyst",
+    "technical",
+    "specifications",
+    "tech",
+    "spec"
+  ],
+  "author": "Alex Lee <www.alexlee.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexlee-dev/analyticool/issues"
+  },
+  "homepage": "https://github.com/alexlee-dev/analyticool#readme"
+}
