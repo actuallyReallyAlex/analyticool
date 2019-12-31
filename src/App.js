@@ -1,24 +1,18 @@
-import React from "react"
-import logo from "./logo.svg"
-import "./App.css"
+import React, { useState } from "react"
 
-function App() {
+const contentTypes = {
+  samba: <span>SAMBA CONTENT</span>,
+  developer: <span>DEVELOPER CONTENT</span>,
+}
+
+const App = () => {
+  const [content, setContent] = useState(null)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>User Type</h1>
+      <button onClick={() => setContent("samba")}>I am Samba</button>
+      <button onClick={() => setContent("developer")}>I am a Developer</button>
+      {contentTypes[content]}
     </div>
   )
 }
